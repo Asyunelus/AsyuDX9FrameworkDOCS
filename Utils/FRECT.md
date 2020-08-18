@@ -37,3 +37,36 @@ This function has no return value.
 
 #### Remarks
 The FRECT structure is identical to the FRECT structure.
+
+### IsInteract Function
+#### Usage
+```c++
+bool IsInteract(const _FRECT& other);
+bool IsInteract(const D3DXVECTOR2& other);
+bool IsInteract(const D3DXVECTOR3& other);
+```
+
+#### Parameters
+```
+other
+```
+Variable to perform collision check for FRECT or Position
+
+#### Return value
+Returns True if there was a collision, False otherwise.
+
+### GetOverlapRect Function
+#### Usage
+```c++
+FRECT GetOverlapRect(const _FRECT& other);
+```
+
+#### Parameters
+```
+other
+```
+겹친 부분을 계산하기 위한 다른 FRECT입니다.  
+
+#### Return value
+두 FRECT의 겹친 부분을 반환합니다.  
+만약, 두 FRECT가 겹치지 않을 경우, 크기가 0인 FRECT를 리턴합니다.
