@@ -5,6 +5,26 @@
 다양한 자료형을 이름과 같이 저장할 수 있습니다.  
 
 ## 함수 목록
+### Constructor
+#### Usage
+```c++
+SaveFile(std::wstring path)
+```
+
+#### Parameters
+```
+path
+```
+The path of the file to be saved.
+
+#### Return value
+This function has no return value.
+
+#### Remarks
+이 함수는 생성자입니다.  
+경로를 지정하지 않은 생성자는 없습니다.  
+
+
 ### Load Function
 #### Usage
 ```c++
