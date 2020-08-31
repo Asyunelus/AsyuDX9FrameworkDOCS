@@ -1,4 +1,6 @@
 # class Input
+## Parent Class
+[SingleInstance<Input>](./SingleInstance.md)
 ## 설명
 키 입력과 관련된 클래스입니다.  
 
