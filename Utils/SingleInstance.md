@@ -6,7 +6,7 @@ Singleton 패턴을 사용하는 모든 클래스의 부모 클래스입니다. 
 ### GetInstance Function
 #### Usage
 ```c++
-static T& Input::GetInstance()
+static T& GetInstance()
 ```
 
 #### Parameters
