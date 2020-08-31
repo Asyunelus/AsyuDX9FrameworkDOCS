@@ -6,14 +6,14 @@ Singleton 패턴을 사용하는 모든 클래스의 부모 클래스입니다. 
 ### GetInstance Function
 #### Usage
 ```c++
-static Input& Input::GetInstance()
+static T& Input::GetInstance()
 ```
 
 #### Parameters
 This function has no parameters.
 
 #### Return value
-return Input&
+return T&
 
 #### Remarks
 Thread-safe한 Singleton 패턴이 사용되었습니다.
