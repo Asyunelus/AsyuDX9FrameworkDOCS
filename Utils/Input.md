@@ -8,7 +8,7 @@
 ### GetInstance Function
 #### Usage
 ```c++
-static Input& Input::GetInstance()
+static Input& GetInstance()
 ```
 
 #### Parameters
